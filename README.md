@@ -10,11 +10,11 @@
 
 首先要在CentOS 6.5下安装下列依赖，确保不缺少相关包.
 
-- numpy (在centos系统中使用pip安装`yum install numpy`)
-- python-opencv* (在centos系统中使用pip安装`yum install opencv*`)
-- PIL模块 (在centos系统中使用pip安装`pip install Pillow`)
+- numpy (在centos系统中使用yum安装`yum install numpy`)
+- python-opencv* (在centos系统中使用yum安装`yum install opencv*`)
+- PIL模块 (在centos系统中使用yum安装`yum install Pillow`)
 
-关于pip的安装，参考：[Python学习-安装pip和scikit-learn](http://blog.csdn.net/dream_angel_z/article/details/45828189)
+题外话，提供一篇关于安装pip的文章，python很多模块都是可以通过pip来安装的参考：[Python学习-安装pip和scikit-learn](http://blog.csdn.net/dream_angel_z/article/details/45828189)
 
 ## 测试及结果
 
