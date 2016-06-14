@@ -2,7 +2,7 @@
 
 该人脸识别Demo是基于OpenCV中的cv2实现的，python语言，代码请见下列文件！
 
-- [face_detect.py](./face_detect.py) 具体解释参考代码
+- [face_detect.py](./face_detect.py) 具体解释参考代码 
 
 文件说明：haarcascades里面的xml文件是OpenCV自带的训练好的分类器，但是必须以灰度图作为输入。CentOS系统中默认情况下，clf的路径是在/usr/share/OpenCV/haarcascades/下，这里为了方便，我将其拷贝到本目录下。本Demo只使用了两个分类器，一个是face，一个是mouth，如果需要测试其它的，想改clf参数即可！
 
